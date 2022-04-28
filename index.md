@@ -1,37 +1,93 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tea Cozy</title>
+        <link href="style.css" type="text/css" rel="stylesheet"
+    </head>
 
-You can use the [editor on GitHub](https://github.com/Broodje-unox/Broodje-unox.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+       <div class="header">
+           <img src="../Tea Cozy/Img/img-tea-cozy-logo.png" class="logo">     
+           <ul class="navigation">
+               <a href="#mission"><li>Mission</li></a>
+               <a href="#featured"><li>Featured Tea</li></a>
+               <a href="#locations"><li>Locations</li></a>
+      </div>
 
-### Markdown
+      <div id="mission">
+            <div class="mission-container">
+                <div class="text-over">
+                    <h2>Our Mission</h2>
+                    <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+                </div>
+            </div>
+      </div>
+ 
+      <div id='featured'>
+          <h1>Tea of The Month</h1>
+          <h2>What's Steeping at The Tea Cozy</h2>
+      </div>
+        <div class="trend-container">
+            <div class="trend">
+                <img src="../Tea Cozy/Img/img-berryblitz.jpg">
+                <h2>Fall Berry blitz Tea</h2>
+        </div>
+                  <div class="trend">
+                <img src="../Tea Cozy/Img/img-spiced-rum.jpg">
+                <h2>Spiced Rum</h2>
+        </div>
+                    <div class="trend">
+                <img src="../Tea Cozy/Img/img-donut.jpg">
+                <h2>Seasonal Donuts</h2>
+        </div>
+                    <div class="trend">
+                <img src="../Tea Cozy/Img/img-myrtle-ave.jpg">
+                <h2>Myrtle Ave Tea</h2>
+        </div>
+                    <div class="trend">
+                <img src="../Tea Cozy/Img/img-bedford-bizarre.jpg">
+                <h2>Bedfrod Bizarre Tea</h2>
+            </div>
+        </div>
+        <div id="locations">
+            </div>
+            <div class="banner">
+                <div class="text-top">
+                    <p>Locations</p>
+                </div>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Downtown</h3>
+                        <p>384 West 4th St</p>
+                        <p>Suite 108</p>
+                        <p>Portland, Maine</p>
+                    </div>
+                    <div class="box">
+                        <h3>East Bayside</h3>
+                        <p>3433 Phishermans Avenue</p>
+                        <p>(northwest Corner)</p>
+                        <p>Portland, Maine</p>
+                    </div>
+                    <div class="box">
+                        <h3>Oakdale</h3>
+                        <p>515 Crescent Avenue</p>
+                        <p>Second Floor</p>
+                        <p>Portland, Maine</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="contact">
+                <h1>The Tea Cozy</h1>
+                <h5>contact@theteacozy.com</h5>
+                <h5>917-555-8904</h5>
+            </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+            <footer>
+                <p>copyright the Tea Cozy 2022</p>
+            </footer>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Broodje-unox/Broodje-unox.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
